@@ -167,6 +167,112 @@
 // }else{
 //     document.write('U LOSE ')
 // }
+//////////////////////////////// CHP 31-34
+// 1
+// document.write(new Date());
+// 2
+// var y = new Date();
+// var x=y.getMonth();
+// if (x==0){ alert( 'CURRENT MONTH : JANUARY'); }
+// if (x==1){ alert('CURRENT MONTH : FEBRUARY'); }
+// if (x==2){ alert('CURRENT MONTH : MARCH'); }
+// if (x==3){ alert('CURRENT MONTH : APRIL'); }
+// if (x==4){ alert('CURRENT MONTH : MAY'); }
+// if (x==5){ alert('CURRENT MONTH : JUNE'); }
+// if (x==6){ alert('CURRENT MONTH : JULY'); }
+// if (x==7){ alert( 'CURRENT MONTH :AUGUST'); }
+// if (x==8){ alert( 'CURRENT MONTH :SEPTEMBER'); }
+// if (x==9){ alert('CURRENT MONTH :OCTOBER'); }
+// if (x==10){ alert('CURRENT MONTH : CURRENT MONTH :NOVEMBER'); }
+// if (x==11){alert('CURRENT MONTH : DECEMBER'); }
+// 3
+// var y = new Date();
+// var x=y.getDay();
+// if (x==0){ alert( 'TODAY IS SUNDAY '); }
+// if (x==1){ alert('TODAY IS MON'); }
+// if (x==2){ alert('TODAY IS TUES'); }
+// if (x==3){ alert('TODAY IS WED'); }
+// if (x==4){ alert('TODAY IS THURS'); }
+// if (x==5){ alert('TODAY IS FRIDAY'); }
+// if (x==6){ alert('TODAY IS SAT'); }
+// 4
+// var y = new Date();
+// var x=y.getDay();
+// if (x==0){ alert( 'It\'s FUN DAY '); }
+// if (x==6){ alert('It\'s FUN DAY'); }
+// 5
+// var y = new Date();
+// var x=y.getDate();
+// if (x<=15){ alert( ' First fifteen days of the month'); }
+// if (x>=16){ alert('Last days of the month') }
+// // 6
+// var oldDate=new Date()
+
+// document.write('CURRENT DATE : ' + oldDate+ '<br>')
+
+// var goldDate = oldDate.getTime(1970,1,1)
+
+// document.write('ELASPED MILLISECOND SINCE JANUARY 1, 1970 : '+ goldDate + '<br>' )
+
+// var goldDate = oldDate.getTime(1970,1,1)
+
+// document.write('ELASPED MINUTES SINCE JANUARY 1, 1970 : '+ goldDate/(1000*60) )
+// 7
+// var x=new Date()
+// var y = x.getHours(1970,1,1)
+// if (y<=12){
+//     alert('IT\'s AM');
+// }else{
+//     alert('IT\'s PM');
+// }
+// 8
+// var laterDate=new Date(2020,12,31)
+// document.write('LATER DATE : '+ laterDate + '<br>' )
+// 9
+// var oldDate=new Date(2020,4,25);
+// var today=new Date();
+// var dif = today.getTime() - oldDate.getTime()
+// document.write( Math.round(dif/(1000*60*60*24)) +' DAYS PASSED SINCE RAMZAN, 2020' +'<br>' )
+// 10
+// var oldDate=new Date(2015);
+// var today=new Date();
+// var dif = today.getTime() - oldDate.getTime()
+// document.write('ON REFERENCE DATE ' +today + ', ' + Math.round(dif/(1000)) +' SECONDS PASSED SINCE BEGINNING OF 2015' +'<br>' )
+// 11
+// var today=new Date();
+// today=today.toString();
+// oldDateHour=today.split(' ');
+// var x = oldDateHour[4].split(':');
+// y=x[0]-1;x[0]=y;x=x.join(':');
+// oldDateHour[4]=x;
+// document.write('CURRENT DATE ' + today + '<br>' +' 1 HOUR Ago it was ' + oldDateHour.join(' ')+'<br>');
+// 12
+// var today=new Date();
+// today=today.toString();
+// oldDateHour=today.split(' ');
+// var x = oldDateHour[3];
+// y=x-100;x=y;;
+// oldDateHour[3]=x;
+// alert('CURRENT DATE ' + today + '\n' +' 1 HOUR Ago it was ' + oldDateHour.join(' '));
+// 13
+// var  x=+prompt('ENTER YOUR AGE');
+// var y = new Date();
+// y=(y.getFullYear())-x;
+// document.write('YOUR BIRTH YEAR Is ' + y ) 
+// 14
+// var customerName='ABC Customer'
+// var month=new Date();
+// month=month.getMonth();
+// var unit= 410;
+// var chargesPerUnit=16;
+// var netAmount=unit*chargesPerUnit;
+// var latePayment=350;
+// var grossAmount=latePayment+netAmount;
+// document.write('Customer Name : '+customerName+ '<br>'+'Month : '+month+'<br>'+'Number of Units : '+unit+'<br>'+'Charges Per Unit : '+chargesPerUnit+'<br>'+'<br>'+'<br>'+ 'Net Amount Payable (With in Due Date) : '+netAmount+'<br>'+'Late payment surcharge : '+latePayment+'<br>'+'Gross Amount payable (After Due Date) : '+grossAmount)
+
+
+
+
 ////////////////////////// CHP 35-38
 // 1
 // function date(){
